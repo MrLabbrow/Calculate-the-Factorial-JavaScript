@@ -8,3 +8,18 @@ for (let i = num; i > 0; i--) {
 
 console.log(`The factorial of ${num} is ${fact}`);
 alert(`The factorial of ${num} is ${fact}`)
+
+// With Reduce
+
+// var num = 10;
+// var arr = [];
+
+// for (let i = num; i > 0; i--) {
+//     arr.push(i-1);
+// }
+// arr.pop();
+
+// let fact = arr.reduce((num1, num2)=>{ 
+//     return num1 * num2;})
+    
+// console.log(fact);
